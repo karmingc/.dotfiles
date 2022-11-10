@@ -6,3 +6,4 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 call plug#end()
 
 set number
+syntax on
