@@ -39,6 +39,7 @@ alias grc='git rebase --continue'
 alias gra='git rebase --abort'
 alias gd='git diff'
 alias gdc='git diff --cached'
+alias gda='git branch | grep -v "main" | xargs git branch -D'
 
 # helm
 alias h="helm"
