@@ -1,3 +1,11 @@
 [user]
 	email = 41309630+karmingc@users.noreply.github.com 
 	name = Karming Chin
+	signingkey = 913D98D02029061E
+[commit]
+	verbose = true
+	# For GPG to work:
+	# 1. add user.signingkey
+	# 2. gpgsign = true
+	# 3. need to install pipentry and kill the gpg-agent. Check https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key under #8.
+	gpgsign = true
