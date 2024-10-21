@@ -9,6 +9,7 @@ source <(fzf --zsh)
 # Z
 . /opt/homebrew/etc/profile.d/z.sh
 
+# Load local configs for zsh
 if [[ -d ~/.zsh/functions ]]; then
     fpath=(~/.zsh/functions $fpath)
 fi
