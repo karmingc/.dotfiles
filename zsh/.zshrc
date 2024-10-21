@@ -1,5 +1,3 @@
-eval "$(pyenv init -)"
-
 eval "$(starship init zsh)"
 
 # Basic auto/tab complete list:
