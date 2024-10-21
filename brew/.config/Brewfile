@@ -1,6 +1,7 @@
 brew "fzf"
 brew "gh"
 brew "gnupg"
+brew "helm"
 brew "kubectx"
 brew "neovim"
 brew "pinentry-mac"
