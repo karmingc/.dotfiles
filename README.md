@@ -1,6 +1,15 @@
 # .dotfiles
+> [!NOTE]
+> This should work fine with MacOS, yet to be tested on other OS.
 
-On a mac, you can run `brew install stow`(https://formulae.brew.sh/formula/stow) to manage neatly the directory tree.
+
+To start off, some tools will require manual installation. Navigate to the [new](./new/check-tools.sh) and run it to check which tools are left to install.
+
+After that is done, run `brew install stow` (https://formulae.brew.sh/formula/stow) to manage neatly the directory tree.
+
+Once you `stow`'d (check [stow](#stow)) everything. Run `brew bundle`, which installs the other necessary tools through brew.
+
+## Stow
 
 In general, you will need to follow these steps.
 
