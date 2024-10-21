@@ -50,3 +50,7 @@ alias pl='pulumi stack ls'
 alias pss='pulumi stack select'
 alias pp='pulumi preview'
 alias ppd='pulumi preview --diff'
+
+# dotfiles
+alias -g dtf='~/.dotfiles'
+alias -g aliasesf='~/.dotfiles/zsh/.zsh/lib/aliases.zsh'
