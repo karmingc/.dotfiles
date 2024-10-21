@@ -1,3 +1,4 @@
+brew "neofetch"
 brew "fzf"
 brew "gh"
 brew "gnupg"
