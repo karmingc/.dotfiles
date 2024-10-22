@@ -21,3 +21,7 @@ fi
 for file in ~/.zsh/lib/*.zsh ~/.zsh.private/lib/*.zsh(N); do
     source $file
 done
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/karming.chin/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
