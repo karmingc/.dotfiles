@@ -20,6 +20,10 @@ alias -g aliasesf='~/.dotfiles/zsh/.zsh/lib/aliases.zsh'
 # terminal stuff
 alias sclear="clear && printf '\e[3J'"
 
+
+# Tree
+alias ta="tree -a"
+
 # Personal laptop
 alias cdhrepos="cd ~/documents/engineering/repos"
 
