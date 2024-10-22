@@ -633,6 +633,14 @@
           }
         }
       }
+    },
+    "cask": {
+      "multipass": {
+        "version": "1.14.1",
+        "options": {
+          "full_name": "multipass"
+        }
+      }
     }
   },
   "system": {
