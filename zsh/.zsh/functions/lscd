@@ -1,0 +1,8 @@
+lscd() {
+  local dir=$(
+    ls |
+    fzf --height 40% --layout reverse --info inline \
+        --tac --no-sort --query "$*" \
+        --bind 'enter:become:echo {1..}'
+  ) && cd "$dir"
+}
