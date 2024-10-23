@@ -2,7 +2,7 @@
 > [!NOTE]
 > This should work fine with MacOS, yet to be tested on other OS.
 
-## installation
+## Installation
 
 ```sh
 cd ~
