@@ -1,7 +1,7 @@
 [user]
 	email = 41309630+karmingc@users.noreply.github.com 
 	name = Karming Chin
-	signingkey = 913D98D02029061E
+	signingkey = 72BCEB15AED066C7
 [commit]
 	verbose = true
 	# For GPG to work:
