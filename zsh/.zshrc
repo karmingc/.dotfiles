@@ -1,5 +1,9 @@
 eval "$(starship init zsh)"
 
+
+autoload -U compinit; compinit
+source ~/fzf-tab/fzf-tab.plugin.zsh
+
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
