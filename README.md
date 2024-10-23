@@ -2,6 +2,14 @@
 > [!NOTE]
 > This should work fine with MacOS, yet to be tested on other OS.
 
+## installation
+
+```sh
+cd ~
+# To install submodules
+git clone --recursive https://github.com/karmingc/.dotfiles.git
+cd .dotfiles
+```
 
 To start off, some tools will require manual installation. Navigate to the [new](./new/check-tools.sh) and run it to check which tools are left to install.
 
