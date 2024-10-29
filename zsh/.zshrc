@@ -1,5 +1,5 @@
 eval "$(starship init zsh)"
-
+eval $(thefuck --alias)
 
 autoload -U compinit; compinit
 source ~/fzf-tab/fzf-tab.plugin.zsh
